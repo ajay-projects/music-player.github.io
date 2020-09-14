@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Music</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="main_div">
+          <div class="center_div">
+            <h2 id="title">LOTUS LANE</h2>
+            <h3 id="artist">The Loyalist</h3>
+            <div class="img_container">
+              <img src="images/m1.jpg" alt="img" />
+            </div>
+            <audio src="music/m1.mp3"></audio>
+
+            <div class="progress_container" id="progress_container">
+              <div class="progress_duration">
+                <div id="current_time">0.00</div>
+                <div id="duration">2:12</div>
+              </div>
+              <div class="progress_div" id="progrss_div">
+                <div class="progress" id="progress"></div>
+              </div>
+            </div>
+
+            <div class="music_control">
+              <i class="fas fa-backward" id="prev" title="previous"></i>
+              <i class="fas fa-play main-button" id="play" title="play"></i>
+              <i class="fas fa-forward" id="next" title="forward"></i>
+            </div>
+          </div>
+      </div>
+    </div>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
